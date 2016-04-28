@@ -10,16 +10,16 @@ public class EmpReg {
 	public void emp() throws IOException{
 		System.out.println("enter the employe login process");
 	System.out.println("emp list");
-	System.out.println("1.shekar");
-	System.out.println("2.rakesh");
-	System.out.println("3.ragu");
+	System.out.println("a.shekar");
+	System.out.println("b.rakesh");
+	System.out.println("c.ragu");
 	 InputStreamReader isr=new InputStreamReader(System.in);
      BufferedReader br=new BufferedReader(isr);
      char ch=(char)br.read( );
 		System.out.println("you entered : "+ch);
 		 switch(ch)
 	     {
-	        case '1' :
+	        case 'a' :
 	        	System.out.println("employe name is shekar");
 	        	System.out.println("enter the id");
 	        	 InputStreamReader isr1=new InputStreamReader(System.in);
@@ -34,7 +34,7 @@ public class EmpReg {
 	     
 	         
 	           break;
-	        case '2' :
+	        case 'b' :
 	        	System.out.println("employe name is rakesh");
 	        	System.out.println("enter empid");
 	        	 InputStreamReader isr2=new InputStreamReader(System.in);
@@ -47,7 +47,7 @@ public class EmpReg {
 		          }
 	        	
 	        	break;
-	        case '3' :
+	        case 'c' :
 	           System.out.println("emp name is ragu");
 	           System.out.println("enter emp id");
 	         InputStreamReader isr3=new InputStreamReader(System.in);
