@@ -7,7 +7,7 @@ public class NewCustReg {
 	private String nName;
 	private int nPhno;
 	public NewCustReg(int nCusId, String nName, int nPhno) {
-		super();
+		
 		this.nCusId = nCusId;
 		this.nName = nName;
 		this.nPhno = nPhno;
