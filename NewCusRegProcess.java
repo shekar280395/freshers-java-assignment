@@ -44,6 +44,7 @@ public class NewCusRegProcess {
 			System.out.println("cus Id: " + cus.getnCusId());
 			System.out.println(" cus Name: " + cus.getnName());
 			System.out.println("cus phno  "+cus.getnPhno());
+			System.out.println("this person is new customer so we allocte cart depend upon customer opinion");
 			/*System.out.println("total price"+prod.getpTotalP());*/
 			System.out.println("-------------------------------");
 		}
